@@ -1,0 +1,103 @@
+html {
+    width: 100%;
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.leftnav, .rightnav {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.5rem;
+}
+
+.apps {
+    opacity: 0.5;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.signin {
+    background-color: #4285f4;
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    margin-left: 1rem;
+}
+
+.signin a {
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    height: 3.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 2.5rem;
+    margin: 2rem 0;
+}
+
+.buttons {
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: #ddd;
+    padding: 1rem 1rem;
+    border-radius: .3rem;
+    margin: 0 .5rem;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    position: absolute;
+    background-color: #eee;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid #ddd;
+}
